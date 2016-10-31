@@ -13,16 +13,18 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Your awesome title
-email: your-email@domain.com
+title: Liquid Information From a Solidmoose
+email: unknown
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+    This is a blog where I will discuss things that I believe are relevant to
+    a reader's interests. If you're reading this, I hope I have provided a solution
+    to your problem in one way or another. Lots of tech jabber will follow, including
+    but not limited to things relevant to C++, Java, HTML, CSS, Webkit, and other tech jargon
+    and acronyms.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://example.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "solidmoose.github.io" # the base hostname & protocol for your site
+twitter_username: solidmoose
+github_username:  solidmoose
 
 # Build settings
 markdown: kramdown
